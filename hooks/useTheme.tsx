@@ -1,6 +1,11 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import React, { createContext, ReactNode, useContext, useEffect, useState } from 'react';
-
+import React, {
+  createContext,
+  ReactNode,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
 export interface ColorScheme {
   bg: string;
@@ -119,13 +124,13 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
 };
 
 const useTheme = () => {
- const context = useContext(ThemeContext);
+  const context = useContext(ThemeContext);
 
   if (context === undefined) {
     throw new Error("useTheme must be used within a ThemeProvider");
   }
 
   return context;
-}
+};
 
-export default useTheme
+export default useTheme;
