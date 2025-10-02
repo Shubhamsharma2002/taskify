@@ -4,9 +4,9 @@ import { Text, View } from 'react-native'
 const DeveloperDetails = () => {
   return (
     <View>
-      <Text>DeveloperDetails...</Text>
+      <Text>DeveloperDetails...     </Text>
     </View>
   )
 }
 
-export default DeveloperDetails
+export default DeveloperDetails 
