@@ -3,7 +3,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 import React from "react";
 const Tablayout = () => {
-  const {colors} = useTheme();
+  const { colors } = useTheme();
   return (
     <Tabs
       screenOptions={{
