@@ -7,7 +7,7 @@ export default function Index() {
     <View
       style={styles.container}
     >
-    
+
       <Text>Edit app/index.tsx to edit this screen oky we will.</Text>
      
      
@@ -17,6 +17,8 @@ export default function Index() {
     </View>
   );
 }
+
+
 
 const styles = StyleSheet.create({
   container:{
